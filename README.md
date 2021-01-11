@@ -1,7 +1,7 @@
 # -BP-
 为了简单理解，采用matlab写的
 
-
+$$
 \begin{align}
 E &= \frac{1}{2}e^Te=\frac{1}{2}(l-y)^T(l-y)\\
 y &= \phi(W^T_2z+b)\\
@@ -14,7 +14,7 @@ z &= \phi(W^T_1x+b)\\
 \nabla_{b_1}E &= -\phi^{'}(W^T_1x+b_1)\circ (-\nabla_{z}E)\\
 -\nabla_{x}E &= W_1\cdot [\phi^{'}(W^T_1x+b_1)\circ  \nabla_{z}E]\\
 \end{align}
-
+$$
 
 对于第$i$个隐层
 
